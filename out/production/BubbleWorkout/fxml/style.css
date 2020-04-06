@@ -1,0 +1,56 @@
+.root {
+    -tab-text-color: -fx-text-base-color;
+}
+
+.tab-label {
+    -fx-text-fill: -tab-text-color;
+}
+
+.main_background {
+	-fx-background-color: linear-gradient(to bottom right, #ff7f50, #6a5acd);
+}
+
+.form_background {
+	-fx-border-color: black;
+	-fx-background-color: linear-gradient(to bottom left, #ff7f50, #6a5acd);
+}
+
+.transparent_with_border {
+	-fx-border-width: 3px;
+	-fx-border-radius: 10px;
+	-fx-background-color: Transparent;
+	-fx-border-color: black;
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+    -fx-background-color: Transparent;
+}
+.tab {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(to bottom left, #ff7f50, #6a5acd);
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+    -tab-text-color: white;
+}
+.tab:selected {
+    -fx-border-width: 3px;
+}
+
+.scroll-pane .viewport {
+	-fx-background-color: transparent;
+}
+.button {
+    -fx-focus-color: transparent;
+}
+.list-cell {
+    -fx-background-color: transparent;
+}
+
+.exercise_list {
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-background-color: Transparent;
+    -fx-border-color: black;
+}

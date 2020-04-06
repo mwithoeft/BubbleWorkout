@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BubbleWorkout:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BubbleWorkout_jar</output-path>
+    <root id="archive" name="BubbleWorkout.jar">
+      <element id="module-output" name="BubbleWorkout" />
+    </root>
+  </artifact>
+</component>
